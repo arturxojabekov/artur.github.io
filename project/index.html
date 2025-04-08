@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Платформа для хранения данных</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Платформа для хранения данных пациентов</h1>
+
+        <div id="save-form">
+            <h2>Сохранить данные</h2>
+            <input type="text" id="data-input" placeholder="Введите данные" required>
+            <input type="text" id="category-input" placeholder="Введите категорию" required>
+            <button id="save-btn">Сохранить</button>
+        </div>
+
+        <div id="data-display">
+            <h2>Все данные</h2>
+            <button id="load-data-btn">Загрузить данные</button>
+            <ul id="data-list"></ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
